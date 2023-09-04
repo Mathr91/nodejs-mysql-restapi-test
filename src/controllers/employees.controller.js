@@ -60,7 +60,7 @@ export const deleteEmployees = async (req, res) => {
     try {
         const [result] = await pool.query('DELETE FROM employee WHERE id=?', [req.params.id]);
         if (result.affectedRows <= 0) return res.status(404).json({ mesage: 'Empleado no encontrado' });
-        res.status(202);
+        res.sendStatus(202);
     } catch (error) {
         return res.status(500).json({
             message: 'algo fue mal'
