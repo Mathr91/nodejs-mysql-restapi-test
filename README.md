@@ -11,25 +11,20 @@ Siga estos pasos para instalar y configurar el proyecto en su entorno local:
 git clone https://github.com/Mathr91/nodejs-mysql-restapi-test.git
 
 2.Instalar Dependencias:
-
 npm install
 
 3.Configurar Variables de Entorno:
-
 Cree un archivo `.env` en el directorio raíz del proyecto y defina las variables de entorno necesarias según se describe en la sección de configuración.
 
 4.Ejecutar la Aplicación:
 
 Modo de Desarrollo con Nodemon:
-
 npm run dev
 
 Modo de Producción con Node.js:
-
 npm start  
 
 Documentación de la API
-
 La documentación detallada de la API se encuentra en la https://matiashrdevs-organization.gitbook.io/api-rest/
       
 Estructura del Proyecto
