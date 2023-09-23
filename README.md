@@ -42,3 +42,7 @@ Estructura del Proyecto
 -src/db.js: Configuración de la base de datos.
 
 -src/index.js: Punto de entrada de la aplicación.
+
+
+actualmente la API esta desplegada en railway, se puede testear , leer la documentacion de la API para mas informacion
+nodejs-mysql-restapi-test-production-a908.up.railway.app/api/employees
