@@ -22,9 +22,15 @@ La documentación detallada de la API se encuentra en la https://matiashrdevs-or
 Estructura del Proyecto
 
 -src/: Contiene el código fuente de la aplicación.
+
 -src/controllers/: Controladores de la API.
+
 -src/routes/: Definición de rutas de la API.
+
 -src/app.js: Configuración de la aplicación Express.
+
 -src/config.js: Configuración de variables de entorno.
+
 -src/db.js: Configuración de la base de datos.
+
 -src/index.js: Punto de entrada de la aplicación.
